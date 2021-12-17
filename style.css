@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Gobold-Italic';
+  src: url('../fonts/Gobold/Gobold\ Italic.ttf') format('truetype');
+}
+
+.login-section-one {
+  background: url('/img/login-blue-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-section-one h1 {
+  font-family: 'Gobold-Italic', sans-serif;
+  color: #FFF;
+}
+
+.login-section-two {
+  background: url('/img/login-white-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-section-two h1 {
+  font-family: 'Inter',sans-serif;
+  color: #00639E;
+  font-size: 5rem;
+}
+
+.login-section-two h2 {
+  color: #9C9C9C;
+  font-size: 1.8rem;
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+}
+
+.login-section-two input {
+  margin-bottom: 2.5rem;
+  border: 1.5px solid #9C9C9C;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.login-section-two label {
+  font-size: 0.75rem;
+  padding: 0 0 0.25rem 0.15rem;
+}
+
+.sign-in-btn button {
+  background-color: #EF822E;
+  color: #FFF;
+  border-radius: 50px;
+  outline: 0;
+  border: 0;
+  padding: 15px 50px;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-btn button:hover {
+  background-color: #00639E;
+  transition: 0.5s ease-in-out;
+
+}
+
+.sign-in-btn i {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .login-section-one {
+    display: none !important;
+  }
+  .forgot-password {
+    text-align: center !important;
+  }
+}
